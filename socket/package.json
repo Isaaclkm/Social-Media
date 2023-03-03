@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "mode": "^0.3.2",
-    "socket.io": "^4.6.0"
+    "nodemon": "^2.0.21",
+    "socket.io": "^4.6.1"
   }
 }
