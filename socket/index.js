@@ -20,7 +20,9 @@ io.on('connection', (socket) => {
         console.log("Connected User", activeUsers)
         io.emit('get-users', activeUsers)
     })
+    //send message 
 
+    socket.on('send-')
     socket.on('disconnect', () => {
         activeUsers = activeUsers.filter((user) => user.socketId !== socket.id);
         console.log('User disconnected', activeUsers)
